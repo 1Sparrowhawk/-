@@ -1,0 +1,2 @@
+# -
+My fun page template
