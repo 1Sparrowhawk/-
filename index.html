@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sραrrσωhαωκ</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <div class="profile-card">
+        <div class="banner"></div>
+        <div class="avatar-container">
+            <img src="images/avatar.png" alt="sparrowhawk" class="avatar">
+        </div>
+        <h1>Sραrrσωhαωκ</h1>
+        <p>Developer, student for others, fpv pilot or video game player? In short, a part-time wanker.</p>
+        <div class="social-icons">
+            <a href="https://discord.com/invite/clarityfr" target="_blank" class="discord-link">
+                <img src="https://img.shields.io/badge/Discord-Clarity-%237289DA.svg?logo=discord&logoColor=white" alt="Clarity Support" class="discord-badge">
+            </a>
+            <a href="https://discord.com/invite/S2waGJPhyF" target="_blank" class="discord-link">
+                <img src="https://img.shields.io/badge/Discord-Synapse-%237289DA.svg?logo=discord&logoColor=white" alt="Synapse Support" class="discord-badge">
+            </a>
+        </div>
+        <div class="audio-controls">
+            <button id="play-pause-btn" class="control-btn"><i class="fas fa-play"></i></button>
+            <button id="mute-btn" class="control-btn"><i class="fas fa-volume-up"></i></button>
+            <input type="range" id="volume-control" min="0" max="1" step="0.1" value="1">
+        </div>
+        <audio id="audio-player" loop>
+            <source src="media/Enigma.mp3" type="audio/mpeg">
+            Your browser does not support the audio element.
+        </audio>
+    </div>
+    <div id="bullet-container"></div>
+    <script src="js/script.js"></script>
+</body>
+</html>
